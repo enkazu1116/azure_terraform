@@ -1,19 +1,9 @@
-variable "vnet_name" {
+variable "vm_net" {
     type = string
-    description = "VNet名"
+    description = "VM名"
 }
 
-variable "vnet_address_space" {
-    type = list(string)
-    description = "VNetのアドレス空間"
-}
-
-variable "subnet_name" {
+variable "username" {
     type = string
-    description = "サブネット名"
-}
-
-variable "subnet_address_prefix" {
-    type = list(string)
-    description = "サブネットのアドレス空間"
+    description = "ユーザー名"
 }

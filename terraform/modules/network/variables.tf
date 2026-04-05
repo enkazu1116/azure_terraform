@@ -1,3 +1,4 @@
+# RGの変数
 variable "resource_group_name" {
   type        = string
   description = "リソースグループ名"
@@ -8,6 +9,7 @@ variable "location" {
   description = "リージョン"
 }
 
+# VNetの変数
 variable "vnet_name" {
   type        = string
   description = "VNet名"
